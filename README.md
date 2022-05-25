@@ -20,7 +20,7 @@ Caso não queira instalar um broker na sua máquina local, você pode configurar
 Primeiramente você precisará ter o Python versão 3.x instalado em sua máquina. Com isso poderá criar uma VirtualEnv para a instalação do driver para comunicar com o protocolo AMQP. Para isso utilize o Prompt do Windows ou um Terminal de linha de comando, para acessar o diretório no qual você clonou (ou fez download) o projeto.
 
 Crie a VirtualEnv:
-- ```python -m virtualenv <<nome da virtual env>>```
+- ```python -m venv <<nome da virtual env>>```
 
 Agora instale as dependências do projeto
 - ```pip install -r requirements.txt```
